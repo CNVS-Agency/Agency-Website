@@ -1,0 +1,173 @@
+// Project : Canvas Agency Website
+// Version: 1.0
+// Developers: Chris Manda & Lusayo Mwaisimba (Co-Founders)
+
+
+
+
+
+//Color-Theory
+
+$primary_color: #111111;
+$base_color: #FFFFFF;
+$grey_color: #A1A1A1;
+$grey_bg_color: #f9f9f9;
+$secondary_color: #313131;
+$accent_color: #A67F;
+
+//Typography
+
+@font-face {
+    font-family: "ProductSans";
+    src: url("../css/custom/ProductSans-Regular.ttf");
+    src:
+    url("../css/custom/ProductSans-Regular.ttf") format('truetype');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "ProductSansLt";
+    src: url("../css/custom/ProductSans-Light.ttf");
+    src:
+    url("../css/custom/ProductSans-Light.ttf") format('truetype');
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "ProductSansBd";
+    src: url("../css/custom/ProductSans-Bold.ttf");
+    src:
+    url("../css/custom/ProductSans-Bold.ttf") format('truetype');
+    font-weight: normal;
+  }
+
+
+  $productsans:  "ProductSans", arial, helvetica, freesans,sans-serif;
+  $productsanslt:  "ProductSansLt", arial, helvetica, freesans,sans-serif;
+  $productsansbd:  "ProductSansBd", arial, helvetica, freesans,sans-serif;
+
+//Default Style Settings
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: $productsanslt !important;
+    position: relative;
+    // overflow: hidden;
+}
+
+p{
+    font-family: $productsanslt;
+    font-size: 16px !important;
+    font-size: 100%;
+    line-height: 1.625;
+    letter-spacing: 1px;
+    margin-top: 1rem !important;
+
+    @media screen and (max-width: 480px) {
+        text-align: left !important;
+      }
+}
+
+a{
+    font-family: $productsansbd;
+    text-decoration: none !important;
+    outline: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $productsans !important;
+    text-transform: capitalize !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    outline: none;
+}
+
+section{
+    margin: 5rem 0;
+}
+
+.section-padding-0-120 {
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+
+ .section-heading-line{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    p{
+        width: calc(70% - 15px);
+    }
+    
+
+    @media screen and (max-width: 480px) {
+        margin: 0;
+        padding: 0.5rem;
+
+        p{
+            text-align: center !important;
+        }
+      }
+}
+
+//default classes
+.bg-gray{
+    background-color: $grey_bg_color;
+}
+
+.sub-text{
+    font-size: 12px;
+    color: #959595;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+//Mixins
+
+@mixin splitsection {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    position: fixed;
+    height: 100%;
+    top: 0;
+    z-index: 999;
+    -webkit-transition-duration: 1000ms;
+    transition-duration: 1000ms;
+}
+
+@mixin button-default{
+    margin-top: 1rem;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid $grey_color;
+    border-radius: 0;
+    background-color: $base_color;
+    color: $grey_color;
+    transition: 0.6s ease-in-out;
+
+    &:hover{
+        background-color: $primary_color;
+        color: $base_color;
+        transition: 0.6s ease-in-out;
+    }
+}
+
+@mixin center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

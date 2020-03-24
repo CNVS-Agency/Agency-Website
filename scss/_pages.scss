@@ -1,0 +1,281 @@
+
+
+// Hero Area Styling
+
+
+.cnvs-hero-area {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+
+    
+    .hero-content-area {
+        margin-top: 15rem;
+        width: calc(60% - 15px);
+
+        @media screen and (max-width: 480px) {
+            margin-top: 10rem;
+            width: 100%;
+            padding: 0.5rem;
+        } 
+    }
+}
+
+
+// IMG CSS
+
+.cnvs-img-area{
+    background-image: url(../img/bg-1.jpg);
+    width: 100%;
+    height: 770px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+//About Us 
+
+.cnvs-about-us-area {
+    width: 100%;
+
+    .about-us-thumb{
+    
+        img{
+          width: 100%;
+          padding: 2rem;
+
+          @media screen and (max-width: 480px) {
+            padding: .5rem; 
+          } 
+
+        }
+    }
+    .about-us-text{
+        width: 100%;
+        margin-top: -5rem;
+
+
+        @media screen and (max-width: 480px) {
+            margin-top: 2rem;
+            padding: .5rem; 
+          }
+        
+          a{
+              @include button-default;
+          }
+    }
+}
+
+
+
+// work or projects
+
+
+.cnvs-portfolio {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+
+    .single_gallery_item {
+        //box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        img {
+            -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+        }
+    }
+
+    .gallery-hover-overlay {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 50px;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+
+        .port-hover-text > span {
+            @extend .sub-text;
+        }
+
+        .port-hover-text > h3 {
+
+            a{
+                color: $primary_color;
+                margin-bottom: 0;  
+                font-family: $productsans; 
+            }
+        }
+    }
+}
+
+.next-project-section{
+    @include center-align;
+
+    .load-more-btn{
+        margin-top: 4rem !important;
+        @include button-default;
+        min-width: 150px;
+        margin: 0 auto;
+    }
+
+}
+
+.cnvs-portfolio .single_gallery_item:hover .gallery-hover-overlay {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.cnvs-portfolio .single_gallery_item:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+// CANVAS Beliefs Area
+
+.cnvs-beliefs-area{
+    
+    width: 100%;
+
+
+    .beliefs-text-people{
+        padding-right: 2rem;
+        text-align: right;  
+
+        @media screen and (max-width: 480px) {
+            padding: 0.5rem;  
+            text-align: start;
+          }
+    }
+
+    .beliefs-text-passion{
+        padding-left: 2rem;
+        text-align: left;
+
+        @media screen and (max-width: 480px) {
+            margin-top: 2rem;
+            padding: 0.5rem;  
+            text-align: start;  
+          }
+    }
+
+    img {
+        @media screen and (max-width: 480px) {
+            padding: 0.5rem;
+        }
+    }
+    
+    
+
+    
+}
+
+//Clients Area
+
+.cnvs-clients-area{
+
+    width: 100%;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: 0 !important;
+
+    .cnvs-clients-logo{
+        justify-content: center;
+        padding: 1rem;
+
+        .single-clients-logo{
+            padding: 0 2rem;
+
+            img {
+       
+                opacity: 0.5;
+                width: 100%;
+                margin: 1rem;
+                padding: 1rem;
+        
+                &:hover{
+                    opacity: 1;
+                }
+
+                @media screen and (max-width: 480px) {
+                    padding: 2rem;
+                    margin: 0;
+                 }
+                
+            }
+            
+        }
+
+        @media screen and (max-width: 480px) {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+    }
+  
+
+}
+
+//CANVAS Footer Area
+
+.cnvs-footer-area{
+    width: 100%;
+    background-color: $primary_color;
+    padding: 2rem 0;
+    
+    .footnote{
+        padding-top: 10rem;
+        display: flex;
+        justify-content: space-around;
+
+        li{
+            list-style: none;
+            display: inline;
+            padding: .5rem;
+
+            a{
+                color: $grey_color;
+                text-transform: uppercase;
+                font-size: 9px;
+                letter-spacing: .15rem;
+
+                &:hover{
+                    color: $base_color;
+                }
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            flex-direction: column-reverse;
+            align-items: center;
+            
+            .social-links{
+                justify-self: flex-start;
+            }
+           
+        } 
+
+    }
+    
+   
+}
+
+
