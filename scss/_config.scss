@@ -76,6 +76,10 @@ a{
     outline: none;
 }
 
+.btn{
+    outline: none !important;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: $productsans !important;
     text-transform: capitalize !important;
@@ -145,6 +149,7 @@ section{
 }
 
 @mixin button-default{
+    box-shadow: none !important;
     margin-top: 1rem;
     font-size: 10px;
     font-weight: 400;

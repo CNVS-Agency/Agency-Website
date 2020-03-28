@@ -2,33 +2,82 @@
 // Version: 1.0
 // Developers: Chris Manda & Lusayo Mwaisimba (Co-Founders)
 
+.cnvs-services{
+    .services-content-area{
+        @extend .project-content-area;
+        padding: 3rem !important;
 
-.services-content-area{
-    @extend .project-content-area;
-    padding: 3rem !important;
+        .services-title{
+            display: flex;
+            justify-content: center;
 
-    .services-title{
-        display: flex;
-        justify-content: center;
+            h2{
+                margin-bottom: 2rem;
+            }
 
-        h2{
-            margin-bottom: 2rem;
+
         }
 
+        .service-area{
+            margin: .8rem;
+            
+            li{
+                padding-left: 22px;
+                position: relative;
+                list-style-type: symbols("-") no-repeat;
+            }
+        }
 
     }
 
-    .service-area{
-        margin: .8rem;
-        
-        li{
-            padding-left: 22px;
-            position: relative;
-            list-style-type: symbols("-") no-repeat;
+    .services-tabs {
+        width: 100%;
+        padding-bottom: 4rem;
+        .item{
+            width: 400px;
+            padding: 2rem;
+            background-color: $base_color;
+
+            @media screen and (max-width: 480px) {
+                min-width: 320px !important ;
+             } 
+            h4{
+                margin-bottom: 1rem;
+            }
+
+            img{
+                width: 35px !important;
+                float: left;
+                margin-right: 1rem;
+            }
+
+        }
+        .owl-stage{
+            width: 1000% !important;
+
+            @media screen and (max-width: 480px) {
+                width: 7200px !important ;
+             } 
+        }
+        .owl-item{
+            width: 400px !important;
+
+            @media screen and (max-width: 480px) {
+               min-width: 320px  !important;
+               margin-right: 10px;
+             } 
+            
+            
+        }
+        .owl-item.cloned{
+            width: 400px !important;
+            margin-right: 2rem;
         }
     }
 
 }
+
+
 
 .profiles-content-area{
 
