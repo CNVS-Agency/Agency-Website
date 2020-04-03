@@ -763,59 +763,6 @@ section {
   list-style-type: symbols("-") no-repeat;
 }
 
-.cnvs-services .services-tabs {
-  width: 100%;
-  padding-bottom: 4rem;
-}
-
-.cnvs-services .services-tabs .item {
-  width: 400px;
-  padding: 2rem;
-  background-color: #FFFFFF;
-}
-
-@media screen and (max-width: 480px) {
-  .cnvs-services .services-tabs .item {
-    min-width: 320px !important;
-  }
-}
-
-.cnvs-services .services-tabs .item h4 {
-  margin-bottom: 1rem;
-}
-
-.cnvs-services .services-tabs .item img {
-  width: 35px !important;
-  float: left;
-  margin-right: 1rem;
-}
-
-.cnvs-services .services-tabs .owl-stage {
-  width: 1000% !important;
-}
-
-@media screen and (max-width: 480px) {
-  .cnvs-services .services-tabs .owl-stage {
-    width: 7200px !important;
-  }
-}
-
-.cnvs-services .services-tabs .owl-item {
-  width: 400px !important;
-}
-
-@media screen and (max-width: 480px) {
-  .cnvs-services .services-tabs .owl-item {
-    min-width: 320px  !important;
-    margin-right: 10px;
-  }
-}
-
-.cnvs-services .services-tabs .owl-item.cloned {
-  width: 400px !important;
-  margin-right: 2rem;
-}
-
 .profiles-content-area .profiles-title h2 {
   margin-bottom: 2rem;
 }

@@ -30,50 +30,50 @@
 
     }
 
-    .services-tabs {
-        width: 100%;
-        padding-bottom: 4rem;
-        .item{
-            width: 400px;
-            padding: 2rem;
-            background-color: $base_color;
+    // .services-tabs {
+    //     width: 100%;
+    //     padding-bottom: 4rem;
+    //     .item{
+    //         width: 400px;
+    //         padding: 2rem;
+    //         background-color: $base_color;
 
-            @media screen and (max-width: 480px) {
-                min-width: 320px !important ;
-             } 
-            h4{
-                margin-bottom: 1rem;
-            }
+    //         @media screen and (max-width: 480px) {
+    //             min-width: 328px !important ;
+    //          } 
+    //         h4{
+    //             margin-bottom: 1rem;
+    //         }
 
-            img{
-                width: 35px !important;
-                float: left;
-                margin-right: 1rem;
-            }
+    //         img{
+    //             width: 35px !important;
+    //             float: left;
+    //             margin-right: 1rem;
+    //         }
 
-        }
-        .owl-stage{
-            width: 1000% !important;
+    //     }
+    //     .owl-stage{
+    //         width: 1000% !important;
 
-            @media screen and (max-width: 480px) {
-                width: 7200px !important ;
-             } 
-        }
-        .owl-item{
-            width: 400px !important;
+    //         @media screen and (max-width: 480px) {
+    //             width: 7200px !important ;
+    //          } 
+    //     }
+    //     .owl-item{
+    //         width: 400px !important;
 
-            @media screen and (max-width: 480px) {
-               min-width: 320px  !important;
-               margin-right: 10px;
-             } 
+    //         @media screen and (max-width: 480px) {
+    //            min-width: 320px  !important;
+    //            margin-right: 10px;
+    //          } 
             
             
-        }
-        .owl-item.cloned{
-            width: 400px !important;
-            margin-right: 2rem;
-        }
-    }
+    //     }
+    //     .owl-item.cloned{
+    //         width: 400px !important;
+    //         margin-right: 2rem;
+    //     }
+    // }
 
 }
 
