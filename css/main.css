@@ -736,6 +736,10 @@ section {
   margin-top: 2rem !important;
 }
 
+.cnvs-services {
+  background: url("../img/so-white.png");
+}
+
 .cnvs-services .services-content-area {
   padding: 3rem !important;
 }
