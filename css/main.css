@@ -763,6 +763,54 @@ section {
   list-style-type: symbols("-") no-repeat;
 }
 
+.cnvs-services .services-tabs {
+  width: 100%;
+  padding-bottom: 4rem;
+}
+
+.cnvs-services .item {
+  width: 380px;
+  padding: 1.5rem;
+  background-color: #FFFFFF;
+}
+
+.cnvs-services .item h4 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.cnvs-services .item img {
+  width: 35px !important;
+  float: left;
+  margin-right: 1rem;
+}
+
+.cnvs-services .owl-stage {
+  -webkit-transform: translate3d(-1850px, 0px, 0px);
+          transform: translate3d(-1850px, 0px, 0px);
+  -webkit-transition: all 0.25s ease 0s;
+  transition: all 0.25s ease 0s;
+  width: 1000% !important;
+}
+
+@media screen and (max-width: 480px) {
+  .cnvs-services .owl-stage {
+    width: 4440px !important;
+  }
+}
+
+.cnvs-services .owl-item, .cnvs-services .owl-item.cloned {
+  width: 380px;
+  margin-right: 8rem !important;
+}
+
+@media screen and (max-width: 480px) {
+  .cnvs-services .owl-item, .cnvs-services .owl-item.cloned {
+    width: 360px !important;
+    margin-right: 10px !important;
+  }
+}
+
 .profiles-content-area .profiles-title h2 {
   margin-bottom: 2rem;
 }
