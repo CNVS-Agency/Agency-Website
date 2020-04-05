@@ -3,7 +3,7 @@
 // Developers: Chris Manda & Lusayo Mwaisimba (Co-Founders)
 
 .cnvs-services{
-    background: url("../img/so-white.png");
+    
     .services-content-area{
         @extend .project-content-area;
         padding: 3rem !important;
@@ -104,6 +104,7 @@
     .owl-item, .owl-item.cloned{
         width: 380px;
         margin-right: 8rem !important;
+        
 
             @media screen and (max-width: 480px) {
                 width: 360px !important;

@@ -102,7 +102,11 @@ section {
   background-color: #f9f9f9;
 }
 
-.sub-text, .cnvs-portfolio .gallery-hover-overlay .port-hover-text > span, .profiles-content-area .profile-area .text span {
+.custom-bg {
+  background: url("../img/redox_01.png");
+}
+
+.sub-text, .cnvs-portfolio .gallery-hover-overlay .port-hover-text > span, .profiles-content-area .profile-area .text span, .cnvs-projects-area .work-section-heading-line ul li {
   font-size: 12px;
   color: #959595;
   text-transform: uppercase;
@@ -736,10 +740,6 @@ section {
   margin-top: 2rem !important;
 }
 
-.cnvs-services {
-  background: url("../img/so-white.png");
-}
-
 .cnvs-services .services-content-area {
   padding: 3rem !important;
 }
@@ -866,5 +866,31 @@ section {
   -ms-grid-column-align: center;
       justify-self: center;
   color: #FFFFFF;
+}
+
+.cnvs-projects-area .work-section-heading-line {
+  padding: 2rem;
+}
+
+.cnvs-projects-area .work-section-heading-line ul li {
+  list-style: none;
+  display: inline;
+  padding: 1rem;
+}
+
+.cnvs-projects-area .work-section-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.cnvs-projects-area .work-section-label span {
+  margin-top: 0.8rem;
+  margin-right: 1rem;
+  width: 20px !important;
+  height: 3px !important;
+  display: inline-block;
+  background: #111111;
 }
 /*# sourceMappingURL=main.css.map */
