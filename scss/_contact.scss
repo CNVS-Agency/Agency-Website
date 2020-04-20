@@ -1,0 +1,26 @@
+// Project : Canvas Agency Website
+// Version: 1.0
+// Developers: Chris Manda & Lusayo Mwaisimba (Co-Founders)
+
+.cnvs-contact-us-area {
+    margin-top: 10rem;
+    width: 100%;
+
+    .mail-to-section{
+        margin-top: 2rem;
+
+        .mail-to{
+            padding: 1rem 0;
+
+            a{
+                font-family: $productsans;
+                color: $grey_color;
+
+                &:hover{
+                    color: $primary_color;
+                }
+
+            }
+        }
+    }
+}

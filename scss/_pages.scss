@@ -240,6 +240,29 @@
     width: 100%;
     background-color: $primary_color;
     padding: 2rem 0;
+
+    @media screen and (max-width: 480px) {
+        height: 100vh;
+     }
+
+    .footnote-label{
+        margin-top: 4rem;
+       @include center-align;
+        
+        img{
+            width: 80px;
+            margin: 2rem;
+            justify-self: center;
+        }
+
+        .talk-more-btn{
+            background: transparent !important;
+            @include button-default;
+        }
+        h5{
+            color: $grey_bg_color;
+        }
+    }
     
     .footnote{
         padding-top: 10rem;
