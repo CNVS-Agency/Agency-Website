@@ -732,48 +732,32 @@ section {
 
 .cnvs-services .services-tabs {
   width: 100%;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
-.cnvs-services .item {
-  width: 380px;
-  padding: 1.5rem;
-  background-color: #FFFFFF;
+.cnvs-services .services-tabs .item {
+  padding: 1rem;
+  background: #FFFFFF;
 }
 
-.cnvs-services .item h4 {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-
-.cnvs-services .item img {
+.cnvs-services .services-tabs .item img {
   width: 35px !important;
   float: left;
   margin-right: 1rem;
 }
 
-.cnvs-services .owl-stage {
-  transform: translate3d(-1850px, 0px, 0px);
-  transition: all 0.25s ease 0s;
-  width: 1000% !important;
+.cnvs-services .services-tabs .item h4 {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
-@media screen and (max-width: 480px) and (min-width: 320px) {
-  .cnvs-services .owl-stage {
-    width: 4440px !important;
-  }
-}
-
-.cnvs-services .owl-item, .cnvs-services .owl-item.cloned {
-  min-width: 320px;
-  margin-right: 8rem !important;
-}
-
-@media screen and (max-width: 480px) and (min-width: 320px) {
-  .cnvs-services .owl-item, .cnvs-services .owl-item.cloned {
-    min-width: 300px !important;
-    margin-right: 5px !important;
-  }
+.cnvs-services #owl-demo .item {
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  border-radius: 3px;
+  text-align: center;
 }
 
 .profiles-content-area .profiles-title h2 {
