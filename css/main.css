@@ -871,6 +871,11 @@ section {
   color: #111111;
 }
 
+.cnvs-processes {
+  margin-bottom: 0rem !important;
+  padding-bottom: 2rem !important;
+}
+
 .cnvs-process-flow .process-section {
   display: flex;
   align-items: center;
