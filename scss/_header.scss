@@ -167,7 +167,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-left: -5%;
+        margin-left: -10%;
 
         ul.navbar-nav {
             -webkit-box-orient: horizontal!important;
@@ -212,6 +212,11 @@
                 flex-direction: column!important;
              } 
         }
+        @media screen and (max-width: 480px) {
+           
+            margin-left: -5%;
+           
+         } 
     }
 
     

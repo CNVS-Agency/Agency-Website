@@ -3,8 +3,22 @@
 // Developers: Chris Manda & Lusayo Mwaisimba (Co-Founders)
 
 .cnvs-contact-us-area {
-    margin-top: 10rem;
+   
     width: 100%;
+
+    .about-us-content{
+     margin-top: 15rem;
+
+     .about-us-text{
+        @media screen and (max-width: 480px){
+            margin-top: 2rem;
+        }
+     }
+
+     @media screen and (max-width: 480px){
+            margin-top: 10rem;
+        }
+    }
 
     .mail-to-section{
         margin-top: 2rem;
