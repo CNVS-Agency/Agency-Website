@@ -890,4 +890,36 @@ section {
 .cnvs-process-flow .process-item .process-item-img {
   width: 100px !important;
 }
+
+@media screen and (max-width: 480px) {
+  .cnvs-process-flow .process-flow .og-img {
+    display: none;
+  }
+}
+
+.cnvs-process-flow .process-flow .mob-img {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .cnvs-process-flow .process-flow .mob-img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cnvs-process-flow .process-flow .arrow-right {
+    width: 150px;
+    margin: 5rem;
+    transform: scaleX(-1) rotate(90deg) !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cnvs-process-flow .process-flow .arrow-left {
+    width: 150px;
+    margin: 5rem 8rem 5rem 0;
+    transform: scaleX(-1) rotate(270deg) !important;
+  }
+}
 /*# sourceMappingURL=main.css.map */

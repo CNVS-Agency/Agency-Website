@@ -24,4 +24,46 @@
         }
     }
 
+    .process-flow{
+        .og-img{
+            @media screen and (max-width: 480px) {
+                display: none;
+             } 
+        }
+
+        .mob-img{
+            display: none;
+            @media screen and (max-width: 480px) {
+                display: block;
+             } 
+        }
+
+
+        .arrow-right{
+            @media screen and (max-width: 480px) {
+
+                width: 150px;
+                margin: 5rem;
+               -webkit-transform: scaleX(-1) rotate(90deg) !important;
+               transform: scaleX(-1) rotate(90deg) !important;
+
+               
+             } 
+        }
+
+        .arrow-left{
+            @media screen and (max-width: 480px) {
+
+                width: 150px;
+                margin: 5rem 8rem 5rem 0;
+               -webkit-transform: scaleX(-1) rotate(270deg) !important;
+               transform: scaleX(-1) rotate(270deg) !important;
+
+               
+             } 
+        }
+    }
+
+
+
 }
