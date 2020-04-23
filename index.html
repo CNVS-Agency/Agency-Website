@@ -10,6 +10,7 @@
     <title>Canvas Agency | Create.Connect</title>
     <!---->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <link rel="shortcut icon" href="img/core-img/favicon.ico" type="image/x-icon">
@@ -57,7 +58,7 @@
                                     <a class="nav-link" href="work.html">Work</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#about">Our Process</a>
+                                    <a class="nav-link" href="processes.html">Our Process</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About</a>
@@ -94,8 +95,8 @@
         <div class="container">
             <div class="hero-content-area d-flex justify-content-end">
                 <div class="hero-text">
-                    <h2>Create.Connect</h2>
-                    <p>A Design and Marketing Agency aimed at building the best brands both locally and globally. Using Simplicity and Creativity to collaborate with people and their products to enhance an atmosphere that harbors ideas and experiences into something extraordinary. </p>
+                    <h2 class="headline">Create.Connect</h2>
+                    <p class="paragraph">A Design and Marketing Agency aimed at building the best brands both locally and globally. Using Simplicity and Creativity to collaborate with people and their products to enhance an atmosphere that harbors ideas and experiences into something extraordinary. </p>
                 </div>
             </div>
         </div>
@@ -108,15 +109,15 @@
             <div class="about-us-content wow fadeInLeftBig" data-wow-delay="0.5">
                 <div class="row no-gutters align-items-center">
                     <div class="col-12 col-md-6">
-                        <div class="about-us-thumb wow fadeIn" data-wow-delay="0.8s">
+                        <div class="about-us-thumb wow fadeIn">
                             <img src="img/bg-03.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="about-us-text wow fadeIn" data-wow-delay="1.3s">
-                            <h2>Welcome to Our Canvas</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus eget purus id felis dignissim convallis. Suspendisse et augue dui. Morbi gravida sed justo vel venenatis. Ut tempor pretium maximus. Donec libero diam, faucibus vitae lectus nec, accumsan gravida dui. Nam interdum mi eget lacus aliquet, sit amet ultricies.</p>
-                            <a class="btn btn-primary" href="about.html">READ MORE</a>
+                            <h2 class="headline">Welcome to Our Canvas</h2>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus eget purus id felis dignissim convallis. Suspendisse et augue dui. Morbi gravida sed justo vel venenatis. Ut tempor pretium maximus. Donec libero diam, faucibus vitae lectus nec, accumsan gravida dui. Nam interdum mi eget lacus aliquet, sit amet ultricies.</p>
+                            <a class="btn btn-primary button" href="about.html">READ MORE</a>
                         </div>
                     </div>
                 </div>
@@ -342,7 +343,7 @@
             <div class="row">
                 <div class="footnote-label col-md-12 d-flex justify-content-center">
                     <img src="./img/core-img/cnvs-logo.svg" alt="CNVS">
-                    <h5>Creating Brands that Connect.&reg;</h5>
+                    <h5>Creating Brands that Connect.&trade;</h5>
                     <a class="btn talk-more-btn" href="contact.html">Talk to Us</a>
                 </div>
             </div>
@@ -377,10 +378,25 @@
 <!--Jquery-3.4.1-->
 <script src="js/navbar-scroll.js"></script>
 <script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/scrollreveal.min.js"></script>
+<script>
+    ScrollReveal().reveal('.headline', { delay: 300 });
+    ScrollReveal().reveal('.paragraph', { delay: 500 });
+    ScrollReveal().reveal('.button', { delay: 800 });
+</script>
+<!-- <script src="js/aos.js"></script>
+<script>
+    AOS.init();
+</script> -->
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/custom.js"></script>
+
+
+
+
+
 
 
 

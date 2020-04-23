@@ -16,7 +16,8 @@
 
     .process-section-end{
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
+        align-content: flex-end;
     }
 
     .process-item{

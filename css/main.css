@@ -270,7 +270,7 @@ section {
 }
 
 .cnvs-menu-area .navbar ul.navbar-nav {
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 720px;
   display: flex;
@@ -906,7 +906,8 @@ section {
 
 .cnvs-process-flow .process-section-end {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+  align-content: flex-end;
 }
 
 .cnvs-process-flow .process-item {
